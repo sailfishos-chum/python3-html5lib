@@ -28,4 +28,4 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/*
+%{python3_sitelib}/*
